@@ -1,0 +1,133 @@
+
+*{
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin: 0px auto 0;
+}
+/* ------------------cabecera--------------------*/
+
+header{
+width: 100%;
+min-height: 150px;
+background-color: rgb(97, 90, 89);
+}
+header h1{
+-webkit-text-stroke: 1px rgb(61, 57, 57);
+text-align: center;
+font-size: 450%;
+color: rgb(231, 231, 231);
+}
+nav{
+width: 550px;
+height: 50px;
+margin: 30px auto 0;
+border-radius: 10px;
+}
+nav a{
+display: inline-block;
+height: 50px;
+text-align: center;
+line-height: 50px;
+color: white;
+background-color: grey;
+text-decoration: none;
+border-radius: 10px;
+}
+nav a:hover{
+background-color: rgb(168, 161, 128);
+}
+
+/* -------------------cuerpo--------------- */
+
+body{
+background-color: rgb(177, 170, 170);
+}
+.oculto{
+display: none;
+}
+article img{
+border-radius: 20px;
+width: 100%;
+height: 80%;
+}
+article {
+margin-left: 20%;
+margin-right: 20%;
+margin-bottom: 25%;
+}
+div p{
+margin-top: 5%;
+text-align: center;
+margin-left: 20%;
+margin-right: 20%;
+color: rgb(255, 255, 255);
+min-height: 100px;
+background-color: grey;
+border-radius: 10px;
+font-size: 20px;
+}
+form{
+margin-top: 5%;
+margin-bottom: 30px;
+margin-left: 22%;
+}
+form input{
+height: 60px;
+width: 17%;
+font-size: 80%;
+border-radius: 10px;
+margin-right: 1%;
+}
+form input:hover{
+background-color: rgb(168, 161, 128);
+}
+/*  --cuerpo de fotos-- */
+section{
+margin-bottom: 25%;
+margin-left: 25%;
+margin-right: 20%;
+}
+section a img{
+margin :2%;
+margin-top: 5%;
+border-radius: 10%;
+width: 40%;
+height: 80%;
+}
+/*  -----------pie------------- */
+footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+min-height: 50px;
+background-color: rgb(97, 96, 96);
+}
+footer p{
+text-align: center;
+line-height: 50px;
+font-size: 25px;
+font-family: fantasy;
+color: rgb(216, 215, 215);
+-webkit-text-stroke: 1px rgb(19, 18, 18);
+}
+footer a{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2%;
+margin-bottom: 1%;
+width: 180px;
+height: 40px;
+font-size: 20px;
+background-color: grey;
+color: white;
+border-radius: 10px;
+text-align: center;
+text-decoration: none;
+}
+footer a:hover{
+background-color: rgb(168, 161, 128);
+}

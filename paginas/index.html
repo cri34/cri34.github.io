@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Fotos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <header id="principio">
+        <h1>
+            MI SECCIÓN DE FOTOGRAFÍAS
+        </h1>
+        <nav>
+            <a href="FOTOSBURBU.html" title="FOTOS BURBU">FOTOS BURBU</a>
+            <a href="FOTOSNATURALEZA.html" title="FOTOS NATURALEZA">FOTOS NATURALEZA</a>
+            <a href="FOTOSCIUDAD.html" title="FOTOS CIUDAD">FOTOS CIUDAD</a>
+            <a href="OTRASFOTOS.html" title="OTRAS FOTOS">OTRAS FOTOS</a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <p>
+                Esta página ha sido creada utilizando principalmente el lenguaje html y css; tiene el proposito de
+                recojer todas las fotos realizadas y separarlas en varios
+                grupos.
+            </p>
+        </div>
+        <form>
+            <input type="button" onclick="mostrar('Fotografía Burbu')" value="Fotografía Burbu"
+                title="Fotografía Burbu">
+            <input type="button" onclick="mostrar('Fotografía Paisaje')" value="Fotografía Paisaje"
+                title="Fotografía Paisaje">
+            <input type="button" onclick="mostrar('Fotografía Ciudad')" value="Fotografía Ciudad"
+                title="Fotografía Ciudad">
+            <input type="button" onclick="mostrar('Otras')" value="Otras" title="Otras">
+        </form>
+        <article>
+            <a><img id="Fotografía Burbu" src="fotos/burbu/burbu6.jpg">
+            </a>
+            <a><img id="Fotografía Paisaje" class="oculto" src="fotos/naturaleza/naturaleza10.jpg">
+            </a>
+            <a><img id="Fotografía Ciudad" class="oculto" src="fotos/ciudad/ciudad1.jpg">
+            </a>
+            <a><img id="Otras" class="oculto" src="fotos/otros/otros2.jpg">
+            </a>
+        </article>
+    </main>
+    <footer>
+        <a href="#principio">principio de página</a>
+        <p>IMAGENES CON COPYRIGHT</p>
+    </footer>
+</body>
+
+</html>
