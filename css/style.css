@@ -16,24 +16,26 @@ background-color: rgb(97, 90, 89);
 header h1{
 -webkit-text-stroke: 1px rgb(61, 57, 57);
 text-align: center;
-font-size: 450%;
+font-size: 300%;
 color: rgb(231, 231, 231);
 }
 nav{
-width: 550px;
+width: 340px;
 height: 50px;
-margin: 30px auto 0;
-border-radius: 10px;
+margin: 15px auto 0;
+text-align: center;
 }
 nav a{
 display: inline-block;
+margin-left: auto;
+margin-right: auto;
 height: 50px;
-text-align: center;
 line-height: 50px;
 color: white;
 background-color: grey;
 text-decoration: none;
 border-radius: 10px;
+font-size: 10px;
 }
 nav a:hover{
 background-color: rgb(168, 161, 128);
@@ -55,7 +57,7 @@ height: 80%;
 article {
 margin-left: 20%;
 margin-right: 20%;
-margin-bottom: 25%;
+margin-bottom: 35%;
 }
 div p{
 margin-top: 5%;
@@ -71,12 +73,12 @@ font-size: 20px;
 form{
 margin-top: 5%;
 margin-bottom: 30px;
-margin-left: 22%;
+margin-left: 20%;
 }
 form input{
 height: 60px;
-width: 17%;
-font-size: 80%;
+width: 18%;
+font-size: 20%;
 border-radius: 10px;
 margin-right: 1%;
 }
@@ -85,10 +87,11 @@ background-color: rgb(168, 161, 128);
 }
 /*  --cuerpo de fotos-- */
 section{
-margin-bottom: 25%;
+margin-bottom: 35%;
 margin-left: 25%;
 margin-right: 20%;
 }
+
 section a img{
 margin :2%;
 margin-top: 5%;

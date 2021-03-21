@@ -1,5 +1,5 @@
 // guardamos el id de la imagen visible
-idImagenVisible = "Fotografía Burbu";
+idImagenVisible = "Fotos Burbu";
 function mostrar(id) {
     // esconedemos la imagen visible
     document.getElementById(idImagenVisible).style.display = "none";
